@@ -100,6 +100,9 @@ document.addEventListener('DOMContentLoaded', function () {
         geburtsdatum: googleForm.elements['geburtsdatum'].value,
         klasse: googleForm.elements['klasse'].value,
         geschlecht: geschlechtValue,
+        tshirt: googleForm.elements['tshirt'].value,
+        ernaehrung: googleForm.elements['ernaehrung'].value,
+        erziehungsberechtigte: googleForm.elements['erziehungsberechtigte'].value,
         telefon: googleForm.elements['telefon'].value,
         email: googleForm.elements['email'].value,
         anmerkungen: googleForm.elements['nachricht'].value
